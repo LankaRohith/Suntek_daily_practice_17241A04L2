@@ -3,8 +3,8 @@ class XOR
 {	
 	void findXor(int arr[],int start,int end)
 		{
-int xor=arr[start];
-for(int arr_index=start+1;arr_index<=end;arr_index++)
+int xor=arr[start];							//work on indentations
+for(int arr_index=start+1;arr_index<=end;arr_index++)			// if end == len of array then itll throw array index out of bounds
 {
 	xor=xor^arr[arr_index];	
 }
